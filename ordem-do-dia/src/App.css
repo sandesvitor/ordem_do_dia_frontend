@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url("/imagens/bgFoto.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -7,12 +13,27 @@
   pointer-events: none;
 }
 
+/*
+.App-Start-Bg {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1084px;
+  background: #808080A1 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/*
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +44,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*/
 
 .App-link {
   color: #61dafb;
