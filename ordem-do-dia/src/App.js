@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import { UserForm } from './components/UserForm';
+import { Navbar } from './components/Navbar';
+import { Main } from './components/Main';
+import { About } from './components/About';
+import { Login } from './components/Login';
 
 class App extends Component {
   render() {
     return (
-
       <div className="App">
-        <UserForm />
-      </div>
-  
-      
-      
+        <Navbar />
+        <Main />
+        <About />
+        <Login />
+      </div>      
     );
   }
 }

@@ -3,11 +3,44 @@
 
 
 .App {
-  text-align: center;
   background-image: url("/imagens/Foto 3Mosq.png");
-  position: fixed;
   min-width: 100%;
   min-height: 100%;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navbar ul li {
+  color: black;
+  font-size: 2em;
+  padding-right: 20px;
+  display: inline;
+}
+
+.main-section {
+  height: 100vh;
+  background-color:transparent;
+}
+
+.about-section {
+  height: 100vh;
+  background-color: mediumpurple;
+}
+
+.login-section {
+  height: 100vh;
+  background-color: tomato;
 }
