@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Main } from './components/Main';
-import { About } from './components/About';
+import { Recursos } from './components/Recursos';
 import { Login } from './components/Login';
+import { Rodape } from './components/Rodape'
 
 class App extends Component {
   render() {
@@ -11,8 +12,9 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Main />
-        <About />
+        <Recursos />
         <Login />
+        <Rodape />
       </div>      
     );
   }

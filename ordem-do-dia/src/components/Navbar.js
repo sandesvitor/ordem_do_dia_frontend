@@ -7,9 +7,9 @@ export class Navbar extends Component {
         return (
             <div className="navbar"> 
                 <ul>
-                    <li>Main</li>
-                    <li>About</li>
+                    <li>Recursos</li>
                     <li>Login</li>
+                    <li>Entrar</li>
                 </ul>
             </div>
         )

@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-export class About extends Component {
+export class Rodape extends Component {
     state = {}
 
     render() {
         return (
-            <div className="about-section">
+            <div className="rodape-section">
             </div>
         )
     }
 }
 
-export default About
+export default Rodape
