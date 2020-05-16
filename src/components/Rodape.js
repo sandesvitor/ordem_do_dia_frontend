@@ -23,7 +23,7 @@ export class Rodape extends Component {
                         <li>
                             <p>
                                 <h1>INFORMAÇÕES</h1>
-                                <h2>Trabalhe Conosco<br/>Política de Privacidade<br/>Termos & Condições</h2>
+                                <h2>Venha Trabalhar Conosco<br/>Política de Privacidade<br/>Termos & Condições</h2>
                             </p>
                         </li>
                     </ul>
