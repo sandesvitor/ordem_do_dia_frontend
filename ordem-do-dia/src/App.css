@@ -71,6 +71,7 @@
   box-shadow: 0px 3px 6px #0000006E;
   border: 5px solid #707070;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 /* ####### SEÇÃO RECUROS ########## */
@@ -79,7 +80,6 @@
   height: 41vh;
   background-color:whitesmoke;
   text-align: center;
-
 }
 
 .recursos-section ul {
@@ -108,6 +108,7 @@
   height: 25vh;
   background-color: #2C6CA3;
   text-align: center;
+  margin-top: -1%; /* CORRIGIR ISSO */
 }
 
 .sub-recursos ul {
@@ -116,7 +117,7 @@
 }
 
 .sub-recursos ul li {
-  color: white;
+  color: #F4F9A7;
   font-size: 1em;
   padding-top: 20px;
   display: inline-block;
@@ -173,6 +174,7 @@
   width: 6vw;
   height: 3.5vh;
   border: none;
+  cursor: pointer;
 }
 
 #txt-enviar {
@@ -184,6 +186,38 @@
 /* ####### SEÇÃO RODAPÉ ########## */
 
 .rodape-section {
-  height: 36vh;
+  height: 30vh;
   background-color: #2C6CA3;
+  text-align: left;
+}
+
+.rodape-infos ul{
+  list-style: none;
+  font-family: 'Montserrat';
+  font-size: 0.4em;
+}
+
+.rodape-infos ul li {
+  display: inline-table;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #F4F9A7;
+}
+
+.rodape-icons img{
+  width: 50px;
+  float: right;
+  position: relative;
+  margin-right: 1%;
+  margin-top: -1%;
+}
+
+.rodape-brand {
+  font-family: 'Montserrat';
+  font-size: 0.8em;
+  color: whitesmoke;
+  float: right;
+  position: relative;
+  margin-right: -9.8%;
+  margin-top: 7.5%;
 }

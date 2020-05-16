@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
 
 export class Main extends Component {
-    state = {}
+    constructor(props){
+        super(props)
 
-    myFunction() {}
+        this.state = {}
+
+        this.myFunction = this.myFunction.bind(this)
+    }
+
+    myFunction() {
+        console.log('Funcioando!')
+        }
+    
 
     render() {
         return (
@@ -11,7 +20,7 @@ export class Main extends Component {
                 <p>
                     <h1>SUA PRODUÇÃO MAIS EFICIENTE</h1>
                     <h2>ORDEM DO DIA NA PALMA DA SUA MÃO</h2>
-                    <input type='button' id="btn-main" value="COMECE AGORA!" onClick='myFunction()'></input>
+                    <input type='button' id="btn-main" value="COMECE AGORA!" onClick = {this.myFunction}></input>
                 </p>
                 
             </div>
