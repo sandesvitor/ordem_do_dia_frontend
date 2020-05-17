@@ -16,7 +16,7 @@ export class Main extends Component {
 
     render() {
         return (
-            <div className="main-section">
+            <div className="main-section" id="main">
                 <p>
                     <h1>SUA PRODUÇÃO MAIS EFICIENTE</h1>
                     <h2>ORDEM DO DIA NA PALMA DA SUA MÃO</h2>

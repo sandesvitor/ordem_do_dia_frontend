@@ -14,6 +14,17 @@ export class Navbar extends Component {
                     <li> 
                         <Link
                         activeClass="active"
+                        to="main"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        >Main
+                        </Link>
+                    </li>
+                    <li> 
+                        <Link
+                        activeClass="active"
                         to="recursos"
                         spy={true}
                         smooth={true}
