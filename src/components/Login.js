@@ -8,7 +8,7 @@ export class Login extends Component {
 
     render() {
         return (
-            <div className="login-section">
+            <div className="login-section" id="login">
                 <div class="login-box">
                     <p>
                         <h1>Aguarde o lançamento</h1>

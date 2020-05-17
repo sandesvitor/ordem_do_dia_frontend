@@ -5,7 +5,7 @@ export class Rodape extends Component {
 
     render() {
         return (
-            <div className="rodape-section">
+            <div className="rodape-section" id="rodape">
                 <div className="rodape-infos">
                     <ul>
                         <li>

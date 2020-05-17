@@ -16,14 +16,23 @@
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Montserrat';
-  font-weight: bold;
   background-color: #2C6CA3;
+}
+
+.navbar p {
+  font-family: 'Montserrat';
+  font-size: 1.4em;
+  font-weight: bold;
+  float: left;
 }
 
 .navbar ul {
   list-style: none;
   text-align: right;
+  font-family: 'Montserrat';
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar ul li {
@@ -77,65 +86,69 @@
 /* ####### SEÇÃO RECUROS ########## */
 
 .recursos-section {
-  height: 41vh;
-  background-color:whitesmoke;
-  text-align: center;
+  height: 49vh;
+  background-color:transparent;
+  margin: 0;
 }
 
-.recursos-section ul {
+.top-recursos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
   list-style: none;
-}
-
-.recursos-section ul li {
-  color: rgb(24, 23, 23);
-  display: inline-table;
-  padding-inline-start: 7%;
-  padding-inline-end: 7%;
+  background-color: white;
 }
 
 
-.recursos-section img {
+.top-recursos li {
+  color: rgb(24, 23, 23);  
+}
+
+
+.top-recursos img {
   width: 250px;
 }
 
-.recursos-section p {
+.top-recursos p {
   font-weight: bold;
   font-size: 1.3em;
   color: #97C4E7;
 }
 
+
 .sub-recursos {
   height: 25vh;
-  background-color: #2C6CA3;
-  text-align: center;
-  margin-top: -1%; /* CORRIGIR ISSO */
-}
-
-.sub-recursos ul {
   list-style: none;
   text-align: center;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #2C6CA3;
 }
 
-.sub-recursos ul li {
+.sub-recursos li {
   color: #F4F9A7;
   font-size: 1em;
   padding-top: 20px;
-  display: inline-block;
-  padding-inline-start: 5%;
-  padding-inline-end: 5%;
   vertical-align: top;
 }
 
 /* ####### SEÇÃO LOGIN ########## */
 
 .login-section {
-  height: 50vh;
+  height: 75vh;
   background-color: transparent;
+  margin: 0;
 }
 
 
 .login-box {
-  margin-top: 9%;
+  position: relative;
+  top: 40%;
+  width: 100%;
   margin-left: 40%;
   text-align: left;
   width: 26vw;
@@ -188,20 +201,22 @@
 .rodape-section {
   height: 30vh;
   background-color: #2C6CA3;
-  text-align: left;
+  margin: 0;
 }
 
 .rodape-infos ul{
   list-style: none;
   font-family: 'Montserrat';
-  font-size: 0.4em;
+  font-size: 0.5em;
+  text-align: left;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .rodape-infos ul li {
-  display: inline-table;
-  padding-left: 10%;
-  padding-right: 10%;
-  color: #F4F9A7;
+  color: whitesmoke;
 }
 
 .rodape-icons img{
